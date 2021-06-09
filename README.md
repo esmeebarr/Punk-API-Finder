@@ -1,3 +1,10 @@
+// Using the API @ https://punkapi.com/documentation/v2 .. Create the following application in react. Start by ...
+// 1. Retrieving search results via postman
+// 2. Draw a component tree for how you think this should be structured
+// 3. Create your components and try to successfully get search results showing on the page.
+// 4. Make it look nice! Go to dribbble.com/search/search%20results for inspiration
+// 5. EXT: Add filters to the navigation menu which allow users to filter the search results. Note: You'll have to read the documentation in the link above to understand how to do this.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,4 +75,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
 # Punk-API-Finder
