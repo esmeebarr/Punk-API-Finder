@@ -1,4 +1,4 @@
-import React, { useState } from "react";
-import styles from "./Filters.module.scss";
+import React from "react";
+import "./Filters.module.scss";
 
 export default Filters;
