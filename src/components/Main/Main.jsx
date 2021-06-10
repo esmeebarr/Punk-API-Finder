@@ -1,14 +1,16 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Main.module.scss";
 
 const Main = (props) => {
-  const { beers } = props;
+  const { name, info } = props;
+
+  // const name = props.key;
   return (
     <div className="styles.main">
       <section className="card.styles">
-        <h2>Beer Name</h2>
-        <h3>Beer Tagline</h3>
-        <p>Beer Description</p>
+        <img src={image} alt="beer" />
+        <h2>{name}</h2>
+        <p>{info}</p>
       </section>
     </div>
   );
