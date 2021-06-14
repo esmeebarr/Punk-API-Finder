@@ -2,7 +2,7 @@ import React from "react";
 import "./Main.module.scss";
 
 const Main = (props) => {
-  const { name, info } = props;
+  const { name, info, image } = props;
 
   // const name = props.key;
   return (

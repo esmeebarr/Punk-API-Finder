@@ -11,7 +11,7 @@ const CardContainer = (props) => {
   return (
     <div className="CardContainer">
       {cardsAsJSX}
-      <Main />
+      {/* <Main /> */}
     </div>
   );
 };
