@@ -1,6 +1,6 @@
 import React from "react";
 import Main from "../Main/Main";
-import styles from "./CardContainer.module.scss";
+import "./CardContainer.css";
 
 const CardContainer = (props) => {
   const { data } = props;

@@ -1,14 +1,14 @@
 import React from "react";
-import "./Main.module.scss";
+import "./Main.css";
 
 const Main = (props) => {
   const { name, info, image } = props;
 
   // const name = props.key;
   return (
-    <div className="styles.main">
+    <div className="main">
       <section className="card.styles">
-        <img src={image} alt="beer" />
+        <img className="img" src={image} alt="beer" />
         <h2>{name}</h2>
         <p>{info}</p>
       </section>

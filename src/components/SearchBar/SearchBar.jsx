@@ -1,5 +1,5 @@
 import React from "react";
-// import "./Searchbar.module.scss";
+import "./SearchBar.css";
 
 const SearchBar = (props) => {
   const { onBlur } = props;
@@ -7,14 +7,14 @@ const SearchBar = (props) => {
   return (
     <div>
       <input
+        className="input"
         type="text"
-        placeholder="Search here.."
+        placeholder="Search your beer here.."
         onBlur={(event) => {
           const beerName = event.target.value;
           onBlur(beerName);
         }}
       />
-      ;
     </div>
   );
 };

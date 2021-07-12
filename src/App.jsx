@@ -13,23 +13,6 @@ const App = () => {
   const [beers, setBeers] = useState([]);
   const [search, updateSearch] = useState([]);
 
-  // useEffect(() => {
-  //   handleSearch("");
-  // }, []);
-
-  // useState{() => {}, []} === componentDidmount -> component loaded initiailly
-  // useState{() => {}, [state]} === componentDidupdate
-  // useState{() => {}, [] return ...} === componentDidunmount
-
-  // const [loaded, setIsLoading] = useState(false);
-
-  // const [searchTerm, setSearchTerm] = useState("");
-
-  // const handleSearch = (event) => {
-  //   const userInput = event.target.value;
-  //   setSearchTerm(userInput);
-  // };
-
   const handleSearch = (beerName) => {
     if (beerName == undefined || beerName == "") {
       fetch(API)
@@ -55,8 +38,7 @@ const App = () => {
 
   useEffect(() => {
     handleSearch("");
-  });
-
+  }, []);
   return (
     <div className="App">
       {/* <NavBar /> */}
